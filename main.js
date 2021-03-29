@@ -18,7 +18,6 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-
 /*Scroll section*/
 const sections = document.querySelectorAll('section[id]')
 

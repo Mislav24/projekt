@@ -176,7 +176,7 @@ a {
 }
 
 /*show scrolltop*/
-.scroll-top {
+.show-scroll {
   visibility: visible;
   bottom: 1.5rem;
 }
@@ -231,31 +231,4 @@ a {
   width: 280px;
   border-radius: 0.5rem;
   justify-self: center;
-}
-
-/*Service*/
-.services_container {
-  row-gap: 2.5rem;
-  grid-template-columns: repeat(aouto-fit, minmax(220px, 1fr));
-}
-
-.services_content {
-  text-align: center;
-}
-
-.services_img {
-  width: 64px;
-  height: 64px;
-  fill: #069c54;
-  margin-bottom: 1rem;
-}
-
-.services_title {
-  font-size: 1.25rem;
-  color: #393939;
-  margin-bottom: 0 1.5rem;
-}
-
-.services_description {
-  padding: 0 1.5rem;
 }
