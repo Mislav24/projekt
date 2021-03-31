@@ -232,3 +232,30 @@ a {
   border-radius: 0.5rem;
   justify-self: center;
 }
+
+/*services*/
+.services_container {
+  row-gap: 2.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.services_content {
+  text-align: center;
+}
+
+.services_img {
+  width: 64px;
+  height: 64px;
+  fill: #069c54;
+  margin-bottom: 1rem;
+}
+
+.services_title {
+  font-size: 1rem;
+  color: #393939;
+  margin-bottom: 0.5rem;
+}
+
+.services_description {
+  padding: 0 1.5rem;
+}
