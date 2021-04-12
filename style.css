@@ -315,3 +315,32 @@ a {
   color: #a6a6a6;
   margin-top: 3.5rem;
 }
+
+/*Media queri*/
+@media screen and (min-width: 576px) {
+  .home_container,
+  .about_container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+
+  .about_data,
+  .about_initial,
+  .contact_container,
+  .contact_initial {
+    text-align: initial;
+  }
+
+  .about_img {
+    width: 380px;
+    order: -1;
+  }
+
+  .contact_container {
+    grid-template-columns: 1.75fr 1fr;
+    align-items: center;
+  }
+  .contact_button {
+    justify-self: center;
+  }
+}
